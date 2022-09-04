@@ -11,7 +11,7 @@ public class EventTest : MonoBehaviour
     public static event OnClicked OnRightClicked;       // OnClicked delegate'sinden bir event nesnesi olusturuldu. 
     public static event OnClicked OnMiddleClicked;    
 
-    private void Start()
+    private void Start() 
     {
         OnRightClicked += PrintRight;
         OnLeftClicked += PrintLeft;
